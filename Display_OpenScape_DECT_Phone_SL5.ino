@@ -1,6 +1,6 @@
 /*display from OpenScape DECT Phone SL5.
  Controller seems similar to ST7789V or ILI9341 but clock ~20MHz(write cycle 48,5ns) where write cycle for ST7789V min 66ns and ILI9341 min 100ns?
-hardware SPI
+Arduino test sketch hardware SPI
 */
 #include <SPI.h>
 #define RDDST     0x09// Read Display Status
