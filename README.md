@@ -1,6 +1,8 @@
 # Display_OpenScape_DECT_Phone_SL5
  Display OpenScape DECT Phone SL5. Pinout and Init
  
+240x320 pix display. Controller seems similar to ST7789V or ILI9341 but clock ~20MHz(write cycle 48,5ns) where write cycle for ST7789V min 66ns and ILI9341 min 100ns? 
+ 
  1  LED+ 9V
  
  2  LED-
